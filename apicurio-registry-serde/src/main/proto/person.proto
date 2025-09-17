@@ -1,0 +1,14 @@
+// Proto schema formatted by Wire, do not edit.
+// Source:
+ 
+syntax = "proto3";
+ 
+package com.test.person;
+ 
+message Person {
+  string firstName = 1;
+ 
+  string lastName = 2;
+ 
+  int32 age = 3;
+}
